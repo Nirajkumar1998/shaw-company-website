@@ -1,0 +1,15 @@
+SHAW & COMPANY — FREE WEBSITE PUBLISHING
+
+1. Create a public GitHub repository named shaw-company-website.
+2. Upload index.html, the assets folder and this instruction file to the repository root.
+3. Open Repository Settings > Pages.
+4. Choose Deploy from a branch > main > /(root), then Save.
+5. In Pages > Custom domain, enter shawandcompany.in and Save.
+6. In Hostinger DNS add four A records for @:
+   185.199.108.153
+   185.199.109.153
+   185.199.110.153
+   185.199.111.153
+7. Add a CNAME record: www -> Nirajkumar1998.github.io
+8. Do not delete or modify MX, SPF, DKIM or other email records.
+9. Return to GitHub Pages and enable Enforce HTTPS after the DNS check passes.
